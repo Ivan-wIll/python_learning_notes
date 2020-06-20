@@ -1,0 +1,5 @@
+First line
+Second line
+Third and final line
+
+A simple GUI editor
