@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_learning_notes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/学习笔记.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/练习-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.ipynb_checkpoints/异常-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.ipynb_checkpoints/条件、循环及其他语句-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.vscode/launch.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1daTsdd4tAnzuKcvNy1uipWpnal" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="" />
+      <created>1592662411760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592662411760</updated>
+      <workItem from="1592662414438" duration="642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="000" />
+    <option name="LAST_COMMIT_MESSAGE" value="000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="16" key="CommitChangelistDialog2" timestamp="1592662676468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592662676468" />
+    <state x="548" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592662486297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="548" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592662486297" />
+  </component>
+</project>
