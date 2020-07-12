@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_learning_notes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/学习笔记.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/练习-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.ipynb_checkpoints/异常-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.ipynb_checkpoints/条件、循环及其他语句-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/test_output1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/test_output1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592662411760</updated>
       <workItem from="1592662414438" duration="642000" />
+      <workItem from="1594271355046" duration="3000" />
     </task>
     <servers />
   </component>

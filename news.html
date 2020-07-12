@@ -1,0 +1,503 @@
+
+        <html>
+        <head>
+        <title>Today's News</title>
+        </head>
+        <body>
+        <h1>Today's News</h1>
+        
+<ul>
+ <li><a href="#1">[RELEASE] mpdecimal-2.5.0</a></li>
+ <li><a href="#2">ANN: SfePy 2020.2</a></li>
+ <li><a href="#3">[RELEASE] Python 3.8.4rc1 is now ready for testing</a></li>
+ <li><a href="#4">Trac 1.2.6 Released</a></li>
+ <li><a href="#5">cx_Freeze: transfer of maintenance to Marcelo Duarte</a></li>
+ <li><a href="#6">EuroPython 2020: Our Keynotes</a></li>
+ <li><a href="#7">Nikola v8.1.1 is out!</a></li>
+ <li><a href="#8">Kibana Online Certification Training</a></li>
+ <li><a href="#9">Python Online Training</a></li>
+ <li><a href="#10">pytest 6.0.0rc1 released</a></li>
+</ul>
+<h2><a name="1">[RELEASE] mpdecimal-2.5.0</a></h2>
+<pre>
+Hi,
+
+I've released mpdecimal-2.5.0:
+
+   http://www.bytereef.org/mpdecimal/index.html
+
+15417edc8e12a57d1d9d75fa7e3f22b158a3b98f44db9d694cfd2acde8dfa0ca  mpdecimal-2.5.0.tar.gz
+
+
+Starting with Python 3.9, this version should be used for an external libmpdec.
+
+
+Python versions 3.7 and 3.8 should use the previous version mpdecimal-2.4.2.
+
+
+libmpdec
+========
+
+libmpdec will continue to evolve conservatively.  For the few changes, see:
+
+   http://www.bytereef.org/mpdecimal/changelog.html
+
+
+libmpdec++
+==========
+
+mpdecimal now includes libmpdec++.  libmpdec++ is a complete C++ implementation
+of the General Decimal Arithmetic Specification.
+
+   http://www.bytereef.org/mpdecimal/doc/libmpdec++/index.html
+
+
+The library frees users from manual memory management and has an easy API with
+inline operators similar to the one in Python's decimal module.  Like Python's
+decimal module, libmpdec++ has a thread local context for inline operators and
+other functions that use the implicit context.
+
+
+Depending on the compiler, the speed penalty for the C++ features compared
+to libmpdec is 4-10%.
+
+The best compiler I found is gcc (GCC) 9.2.1 20190827 (Red Hat 9.2.1-1), closely
+followed by the latest Intel compiler.  Both produce the fastest libmpdec code
+and have a speed penalty for C++ of 4%.
+
+
+Like libmpdec, libmpdec++ has a large test suite.  In addition to the mpdecimal
+tests, libmpdec++ has been tested by replacing all libmpdec functions in Python's
+decimal module with libmpdec++ functions.
+
+libmpdec++ passes both the Python test suite and deccheck.py.
+
+
+For a short libmpdec++ introduction, see:
+
+   http://www.bytereef.org/mpdecimal/quickstart.html
+
+
+
+Stefan Krah
+
+
+</pre>
+<h2><a name="2">ANN: SfePy 2020.2</a></h2>
+<pre>I am pleased to announce the release of SfePy 2020.2.
+
+Description
+-----------
+
+SfePy (simple finite elements in Python) is a software for solving system=
+s of
+coupled partial differential equations by finite element methods. It is
+distributed under the new BSD license.
+
+Home page: https://sfepy.org
+Mailing list: https://mail.python.org/mm3/mailman3/lists/sfepy.python.org=
+/
+Git (source) repository, issue tracker: https://github.com/sfepy/sfepy
+
+Highlights of this release
+--------------------------
+
+- discontinuous Galerkin method implementation and examples
+- new website look
+- memory usage improvements
+
+For full release notes see [1].
+
+Cheers,
+Robert Cimrman
+
+[1] http://docs.sfepy.org/doc/release_notes.html#id1
+
+---
+
+Contributors to this release in alphabetical order:
+
+Robert Cimrman
+Jan Heczko
+Lubos Kejzlar
+Vladimir Lukes
+Tom=C3=A1=C5=A1 Z=C3=ADtka
+
+</pre>
+<h2><a name="3">[RELEASE] Python 3.8.4rc1 is now ready for testing</a></h2>
+<pre>UHl0aG9uIDMuOC40cmMxIGlzIHRoZSByZWxlYXNlIGNhbmRpZGF0ZSBvZiB0aGUgZm91cnRoIG1h
+aW50ZW5hbmNlIHJlbGVhc2Ugb2YgUHl0aG9uIDMuOC4gR28gZ2V0IGl0IGhlcmU6DQpodHRwczov
+L3d3dy5weXRob24ub3JnL2Rvd25sb2Fkcy9yZWxlYXNlL3B5dGhvbi0zODRyYzEvIDxodHRwczov
+L3d3dy5weXRob24ub3JnL2Rvd25sb2Fkcy9yZWxlYXNlL3B5dGhvbi0zODRyYzEvPg0KQXNzdW1p
+bmcgbm8gY3JpdGljYWwgcHJvYmxlbXMgYXJlIGZvdW5kIHByaW9yIHRvIDIwMjAtMDctMTMsIHRo
+ZSBzY2hlZHVsZWQgcmVsZWFzZSBkYXRlIGZvciAzLjguNCwgbm8gY29kZSBjaGFuZ2VzIGFyZSBw
+bGFubmVkIGJldHdlZW4gdGhpcyByZWxlYXNlIGNhbmRpZGF0ZSBhbmQgdGhlIGZpbmFsIHJlbGVh
+c2UuDQoNClRoYXQgYmVpbmcgc2FpZCwgcGxlYXNlIGtlZXAgaW4gbWluZCB0aGF0IHRoaXMgaXMg
+YSBwcmUtcmVsZWFzZSBhbmQgYXMgc3VjaCBpdHMgbWFpbiBwdXJwb3NlIGlzIHRlc3RpbmcuDQoN
+Ck1haW50ZW5hbmNlIHJlbGVhc2VzIGZvciB0aGUgMy44IHNlcmllcyB3aWxsIGNvbnRpbnVlIGF0
+IHJlZ3VsYXIgYmktbW9udGhseSBpbnRlcnZhbHMsIHdpdGggMy44LjUgcGxhbm5lZCBmb3IgbWlk
+LVNlcHRlbWJlciAyMDIwLg0KDQpXaGF04oCZcyBuZXc/DQoNClRoZSBQeXRob24gMy44IHNlcmll
+cyBpcyB0aGUgbmV3ZXN0IGZlYXR1cmUgcmVsZWFzZSBvZiB0aGUgUHl0aG9uIGxhbmd1YWdlLCBh
+bmQgaXQgY29udGFpbnMgbWFueSBuZXcgZmVhdHVyZXMgYW5kIG9wdGltaXphdGlvbnMuIFNlZSB0
+aGUg4oCcV2hhdOKAmXMgTmV3IGluIFB5dGhvbiAzLjggPGh0dHBzOi8vZG9jcy5weXRob24ub3Jn
+LzMuOC93aGF0c25ldy8zLjguaHRtbD7igJ0gZG9jdW1lbnQgZm9yIG1vcmUgaW5mb3JtYXRpb24g
+YWJvdXQgZmVhdHVyZXMgaW5jbHVkZWQgaW4gdGhlIDMuOCBzZXJpZXMuDQoNClRoaXMgaXMgdGhl
+IGZpcnN0IGJ1Z2ZpeCByZWxlYXNlIHRoYXQgaXMgY29uc2lkZXJhYmx5IHNtYWxsZXIgdGhhbiB0
+aGUgcHJldmlvdXMgdGhyZWUuIFRoZXJl4oCZcyAyMCUgbGVzcyBjaGFuZ2VzIGF0IDEzMCBjb21t
+aXRzIHRoYW4gdGhlIGF2ZXJhZ2Ugb2YgcHJldmlvdXMgdGhyZWUgcmVsZWFzZXMuIERldGFpbGVk
+IGluZm9ybWF0aW9uIGFib3V0IGFsbCBjaGFuZ2VzIG1hZGUgaW4gdmVyc2lvbiAzLjguNCBzcGVj
+aWZpY2FsbHkgY2FuIGJlIGZvdW5kIGluIGl0cyBjaGFuZ2UgbG9nIDxodHRwczovL2RvY3MucHl0
+aG9uLm9yZy9yZWxlYXNlLzMuOC40cmMxL3doYXRzbmV3L2NoYW5nZWxvZy5odG1sI3B5dGhvbi0z
+LTgtNC1yZWxlYXNlLWNhbmRpZGF0ZS0xPi4NCg0KV2UgaG9wZSB5b3UgZW5qb3kgUHl0aG9uIDMu
+OCENCg0KVGhhbmtzIHRvIGFsbCBvZiB0aGUgbWFueSB2b2x1bnRlZXJzIHdobyBoZWxwIG1ha2Ug
+UHl0aG9uIERldmVsb3BtZW50IGFuZCB0aGVzZSByZWxlYXNlcyBwb3NzaWJsZSEgUGxlYXNlIGNv
+bnNpZGVyIHN1cHBvcnRpbmcgb3VyIGVmZm9ydHMgYnkgdm9sdW50ZWVyaW5nIHlvdXJzZWxmIG9y
+IHRocm91Z2ggb3JnYW5pemF0aW9uIGNvbnRyaWJ1dGlvbnMgdG8gdGhlIFB5dGhvbiBTb2Z0d2Fy
+ZSBGb3VuZGF0aW9uLg0KDQpZb3VyIGZyaWVuZGx5IHJlbGVhc2UgdGVhbSwNCk5lZCBEZWlseSBA
+bmFkIDxodHRwczovL2Rpc2N1c3MucHl0aG9uLm9yZy91L25hZD4NClN0ZXZlIERvd2VyIEBzdGV2
+ZS5kb3dlciA8aHR0cHM6Ly9kaXNjdXNzLnB5dGhvbi5vcmcvdS9zdGV2ZS5kb3dlcj4NCsWBdWth
+c3ogTGFuZ2EgQGFtYnYgPGh0dHBzOi8vZGlzY3Vzcy5weXRob24ub3JnL3UvYW1idj4=
+
+</pre>
+<h2><a name="4">Trac 1.2.6 Released</a></h2>
+<pre>Trac 1.2.6 Released
+===================
+
+Trac 1.2.6, the latest maintenance release for the older stable branch,
+is available.
+
+You will find this release at the usual places:
+
+https://trac.edgewall.org/wiki/TracDownload#Trac12StableRelease
+
+You can find the detailed release notes for 1.2.6 on the following
+pages:
+https://trac.edgewall.org/wiki/1.2/TracChangeLog
+https://trac.edgewall.org/wiki/TracDev/ReleaseNotes/1.2#MaintenanceReleases
+
+Now to the packages themselves:
+
+URLs:
+
+https://download.edgewall.org/trac/Trac-1.2.6.tar.gz
+https://download.edgewall.org/trac/Trac-1.2.6-py2-none-any.whl
+https://download.edgewall.org/trac/Trac-1.2.6.win32.exe
+https://download.edgewall.org/trac/Trac-1.2.6.win-amd64.exe
+
+MD5 sums:
+
+5da1421575060856d241e8c81edca5e3  Trac-1.2.6.tar.gz
+fbe5d0b270044eb085b845119a8d4b88  Trac-1.2.6-py2-none-any.whl
+808c89f549dec5a35ced0c23fa0c68cc  Trac-1.2.6.win32.exe
+0ea6c5e63f3000a664560dbe74171868  Trac-1.2.6.win-amd64.exe
+
+SHA256 sums:
+
+780b8ca22c4044bbffb7bf5537b4e7770a59e3663c4d3eddacefc42207204671  Trac-1.2.6.tar.gz
+f8e446c68adccd849f34529d507032da085d6e47e10eff93ccecf510398ad561  Trac-1.2.6-py2-none-any.whl
+6300ef4b954d8aff9c686a1d6a9d78321ff2a413ed2bffebdd3ac03bdee72074  Trac-1.2.6.win32.exe
+910662dfee3e71b8676aaedd2a19cc9f142451a91e7c230ff580f8104a7772b8  Trac-1.2.6.win-amd64.exe
+
+Acknowledgements
+================
+
+Many thanks to the growing number of people who have, and continue to,
+support the project. Also our thanks to all people providing feedback
+and bug reports that helps us make Trac better, easier to use and
+more effective. Without your invaluable help, Trac would not evolve.
+Thank you all.
+
+Finally, we hope that Trac will be useful to like-minded programmers
+around the world, and that this release will be an improvement over
+the last version.
+
+Please let us know.
+
+/The Trac Team https://trac.edgewall.org/
+
+</pre>
+<h2><a name="5">cx_Freeze: transfer of maintenance to Marcelo Duarte</a></h2>
+<pre>QWxsLA0KDQpJbiB0aGUgcGFzdCBmZXcgeWVhcnMgSSBoYXZlIHJlYWxpemVkIHRoYXQgSSBubyBs
+b25nZXIgdXNlIGN4X0ZyZWV6ZSBteXNlbGYNCmFuZCBteSBzcGFyZSB0aW1lIHRvIG1haW50YWlu
+IGN4X0ZyZWV6ZSBpcyBsaW1pdGVkLiBJbiB0aGUgcGFzdCBudW1iZXIgb2YNCm1vbnRocyBNYXJj
+ZWxvIER1YXJ0ZSBoYXMgYmVlbiBkb2luZyBtdWNoIG9mIHRoZSB3b3JrIG9mIHJlc3BvbmRpbmcg
+dG8NCmlzc3VlcyBhbmQgY3JlYXRpbmcgcHVsbCByZXF1ZXN0cyB0byBjb250aW51ZSBlbmhhbmNp
+bmcgY3hfRnJlZXplLiBBcyBzdWNoLA0KYXMgb2YgdG9kYXkgSSBhbSB0cmFuc2ZlcnJpbmcgdGhl
+IG1haW50ZW5hbmNlIG9mIGN4X0ZyZWV6ZSB0byBoaW0uIEkgd2lsbA0KY29udGludWUgdG8gYmUg
+YXZhaWxhYmxlIGZvciBjb25zdWx0YXRpb24gYnV0IHRoaXMgaXMgYSBmb3JtYWwgcmVjb2duaXRp
+b24NCnRoYXQgdGhlIGJ1bGsgb2YgdGhlIHdvcmsgaXMgbm93IGJlaW5nIHBlcmZvcm1lZCBieSBN
+YXJjZWxvLiBJIHdpc2ggaGltIGFsbA0KdGhlIGJlc3QhDQoNClRoZSBuZXcgcmVwb3NpdG9yeSBp
+czogaHR0cHM6Ly9naXRodWIuY29tL21hcmNlbG90ZHVhcnRlL2N4X0ZyZWV6ZQ0KDQpBbnRob255
+DQo=
+
+</pre>
+<h2><a name="6">EuroPython 2020: Our Keynotes</a></h2>
+<pre>We=92re happy to announce our keynote lineup for EuroPython 2020.
+
+                      * EuroPython 2020 Keynotes *
+             https://ep2020.europython.eu/events/keynotes/
+
+
+Guido van Rossum - Q&A
+----------------------
+
+In this session, you=92ll get a chance to get your questions answered by
+Guido van Rossum, our retired BDFL.
+
+In order to submit a question, please use the following Google form:
+Guido van Rossum Q&A: Question Submission:
+
+https://forms.gle/cAaBgUeVEBgjaDrH7
+
+
+Siddha Ganju - 30 Golden Rules of Deep Learning Performance
+-----------------------------------------------------------
+
+=93Watching paint dry is faster than training my deep learning model.=94
+=93If only I had ten more GPUs, I could train my model in time.=94
+=93I want to run my model on a cheap smartphone, but it=92s probably too
+heavy and slow.=94
+
+If this sounds like you, then you might like this talk.
+
+Exploring the landscape of training and inference, we cover a myriad of
+tricks that step-by-step improve the efficiency of most deep learning
+pipelines, reduce wasted hardware cycles, and make them cost-effective.
+We identify and fix inefficiencies across different parts of the
+pipeline, including data preparation, reading and augmentation,
+training, and inference.
+
+With a data-driven approach and easy-to-replicate TensorFlow examples,
+finely tune the knobs of your deep learning pipeline to get the best out
+of your hardware.  And with the money you save, demand a raise!
+
+Naomi Ceder - Staying for the Community:
+Building Community in the face of Covid-19
+------------------------------------------
+
+Python communities around the world, large and small are facing loss -
+from the loss of in person meetups and conferences to the loss of
+employment and even the potential loss of health and life.  As
+communities we are all confronting uncertainty and unanswered questions.
+In this talk I would like to reflect on some of those questions.  What
+are communities doing now to preserve a sense of community in the face
+of this crisis?  What might we do and what options will we have for
+coming events?  How can we build and foster community and still keep
+everyone safe?  What challenges might we all face in the future?  What
+sources of support can we find?  What are our sources of optimism and
+hope?
+
+
+Alejandro Saucedo - Meditations on First Deployment:
+A Practical Guide to Responsible Development
+----------------------------------------------------
+
+As the impact of software increasingly reaches farther and wider, our
+professional responsibility as developers becomes more critical to
+society. The production systems we design, build and maintain often
+bring inherent adversities with complex technical, societal and even
+ethical challenges. The skillsets required to tackle these challenges
+require us to go beyond the algorithms, and require cross-functional
+collaboration that often goes beyond a single developer.  In this talk
+we introduce intuitive and practical insights from a few of the core
+ethics themes in software including Privacy, Equity, Trust and
+Transparency.  We cover their importance, the growing societal
+challenges, and how organisations such as The Institute for Ethical AI,
+The Linux Foundation, the Association for Computer Machinery, NumFocus,
+the IEEE and the Python Software Foundation are contributing to these
+critical themes through standards, policy advise and open source
+software initiatives.  We finally will wrap up the talk with practical
+steps that any individual can take to get involved and contribute to
+some of these great open initiatives, and contribute to these critical
+ongoing discussions.
+
+
+EuroPython 2020 is waiting for you
+----------------------------------
+
+We=92ve compiled a full program for the event:
+
+- more than 120 sessions,
+- more than 120 speakers from around the world,
+- 4 brilliant keynotes,
+- 2 exciting lightning talk blocks,
+- 4 all-day tracks, with a whole track dedicated to data science topics,
+- a poster track,
+- a virtual social event,
+- an after party,
+- and lots of socializing on our conference platform.
+
+Conference tickets are available on our registration page.  We hope to
+see lots of you at the conference from July 23-26.  Rest assured that
+we=92ll make this a great event again =97 even within the limitations of
+running the conference online.
+
+    https://ep2020.europython.eu/registration/buy-tickets/
+
+
+Help spread the word
+--------------------
+
+Please help us spread this message by sharing it on your social networks
+as widely as possible. Thank you !
+
+Link to the blog post:
+
+https://blog.europython.eu/post/622517324925321216/europython-2020-our-ke=
+ynotes
+
+Tweet:
+
+https://twitter.com/europython/status/1278608198870749184
+
+Thanks,
+--
+EuroPython 2020 Team
+https://ep2020.europython.eu/
+https://www.europython-society.org/
+
+</pre>
+<h2><a name="7">Nikola v8.1.1 is out!</a></h2>
+<pre>This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--jkqimBtlKPYNAALiVo1T2GFOrAQX8dWni
+Content-Type: multipart/mixed; boundary="jrikrt76QzR4JYnGOgvvBJpegkO2EOBNU"
+
+--jrikrt76QzR4JYnGOgvvBJpegkO2EOBNU
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: quoted-printable
+
+On behalf of the Nikola team, I am pleased to announce the immediate
+availability of Nikola v8.1.1. This release is mainly due to an
+incorrect PGP key being used for the PyPI artifacts; three regressions
+were also fixed in this release.
+
+What is Nikola?
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Nikola is a static site and blog generator, written in Python.
+It can use Mako and Jinja2 templates, and input in many popular markup
+formats, such as reStructuredText and Markdown =E2=80=94 and can even tur=
+n
+Jupyter Notebooks into blog posts! It also supports image galleries,
+and is multilingual. Nikola is flexible, and page builds are extremely
+fast, courtesy of doit (which is rebuilding only what has been changed).
+
+Find out more at the website: https://getnikola.com/
+
+Downloads
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Install using `pip install Nikola`.
+
+Changes
+=3D=3D=3D=3D=3D=3D=3D
+
+Bugfixes
+--------
+
+* Default to no line numbers in code blocks, honor CodeHilite
+  requesting no line numbers. Listing pages still use line numbers
+  (Issue #3426)
+* Remove duplicate MathJax config in bootstrap themes (Issue #3427)
+* Fix ``doit`` requirement to ``doit>=3D0.32.0`` (Issue #3422)
+
+
+--=20
+Chris Warrick <https://chriswarrick.com/>
+PGP: 5EAAEA16
+
+
+--jrikrt76QzR4JYnGOgvvBJpegkO2EOBNU--
+
+--jkqimBtlKPYNAALiVo1T2GFOrAQX8dWni
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEE3zLJnP+EKCz51M9xcQI9vV6q6hYFAl8CS3EACgkQcQI9vV6q
+6hYfXAf+PSYVETALp+GA7BX0gUWffcXkAfRcAH+T1Xtw2fjorHVBkt4vghViRSnk
+IR3BPWoyyl2gDuhctJZF6O9RsNfWV1Ot7fJ/BJCmday+2AoKi67eHScHVmH3MZTh
+sNxFBiEzdPBUoo4reVGMnmYfRTTF+GfazikfZI+2mS5vvhOCJe3Y12xf1SBkHKhG
+9tshK07BNd2L7+3cMCgek2BFtdNb97OuUpahQt1SvGinQ/1YeN+ga8BKcmq9HjVd
+vWrh0Scgj9C7qmhV6PXNKZjkeHUFVbA5CHPbKCLg64CERCD8MIMmVm1zrkc70Phk
+PZ/KyW9XPISn50dRrsVmsFZilUrk7Q==
+=VFQn
+-----END PGP SIGNATURE-----
+
+--jkqimBtlKPYNAALiVo1T2GFOrAQX8dWni--
+
+</pre>
+<h2><a name="8">Kibana Online Certification Training</a></h2>
+<pre>Kibana is an open-source application from ten sources at the top of the E=
+lastic Stack stack that provides data search and display capabilities for=
+ data indexed in Elastic search. Often known as a graphical tool for Elas=
+tic Stack (formerly known as ELK Stack by Elasticsearch, Logstash, and Ki=
+bana), Kibana also acts as the user interface for monitoring, managing, a=
+nd securing an Elastic Stack cluster=E2=80=94 as well as the centralized =
+hub for built-in solutions developed on the Elastic Stack. , the USA Crea=
+ted in 2013 by the Elasticsearch community, Kibana became the Elastic Sta=
+ck window to work from a single presentation for users and companies.
+
+Find out more at the website- https://mindmajix.com/kibana-training
+
+FEATURES
+Demos at Convenient Time?
+1-1 Training
+Batch Start Dates
+Customize Course Content
+EMI Option
+Mock Interviews after Training
+Group Discounts
+
+</pre>
+<h2><a name="9">Python Online Training</a></h2>
+<pre>This course will help you to expertise in the usage of Python.
+Programming languages have been around for ages, and every decade sees the launch of a new language sweeping developers off their feet. Python is considered one of the most popular and in-demand programming languages. A recent Stack Overflow survey showed that Python has taken over languages such as Java, C, C++ and has made its way to the top. This makes Python certification one of the most sought-after programming certifications. Through this blog, I will be listing down the top 10 reasons to learn Python.
+Python is a versatile language when needed for website development.
+Python is considered instrumental in AI and data science
+Python excessively and uninterruptedly used in the Internet of Things
+Python highly recommended when learning to code.
+
+Python is extremely simple and easy to learn. It is a very powerful language and it closely resembles the English language!
+So, what contributes to its simplicity? Python is
+Free & open source
+High-level
+Interpreted
+Blessed with a large community.
+Start learning Python for Data Science from basics to advance levels here...
+https://bit.ly/2Z0jUk8
+
+</pre>
+<h2><a name="10">pytest 6.0.0rc1 released</a></h2>
+<pre>cHl0ZXN0IDYuMC4wcmMxIGhhcyBqdXN0IGJlZW4gcmVsZWFzZWQgdG8gUHlQSS4NCg0KVGhpcyBp
+cyBhIHByZXJlbGVhc2UgdG8gaGVscCBpZGVudGlmeSBhbnkgaXNzdWVzIGJlZm9yZSB0aGUgZmlu
+YWwgNi4wLjAuDQpQbGVhc2UgdXNlIHRoaXMgdmVyc2lvbiB0byBydW4geW91ciB0ZXN0IHN1aXRl
+IGFuZCByZXBvcnQgYW55IHByb2JsZW1zIQ0KDQpUbyB1cGdyYWRlOg0KDQogIHBpcCBpbnN0YWxs
+IC0tdXBncmFkZSAtLXByZSBweXRlc3QNCg0KVGhlIGZ1bGwgY2hhbmdlbG9nIGlzIGF2YWlsYWJs
+ZSBhdA0KaHR0cHM6Ly9kb2NzLnB5dGVzdC5vcmcvZW4vbGF0ZXN0L2NoYW5nZWxvZy5odG1sLg0K
+DQpUaGFua3MgdG8gYWxsIHdobyBjb250cmlidXRlZCB0byB0aGlzIHJlbGVhc2UsIGFtb25nIHRo
+ZW06DQoNCiogQWxmcmVkbyBEZXphDQoqIEFuZHJlYXMgTWFpZXINCiogQW5kcmV3DQoqIEFudGhv
+bnkgU290dGlsZQ0KKiBBcnR5b21LYWx0b3ZpY2gNCiogQnJ1bm8gT2xpdmVpcmENCiogQ2xhaXJl
+IENlY2lsDQoqIEN1cnQgSi4gU2FtcHNvbg0KKiBEYW5pZWwNCiogRGFuaWVsIEhhaGxlcg0KKiBE
+YW5ueSBTZXBsZXINCiogRGF2aWQgRGlheiBCYXJxdWVybw0KKiBGYWJpbyBaYWRyb3pueQ0KKiBG
+ZWxpeCBOaWV1d2VuaHVpemVuDQoqIEZsb3JpYW4gQnJ1aGluDQoqIEZsb3JpYW4gRGFobGl0eg0K
+KiBHbGViIE5pa29ub3Jvdg0KKiBIdWdvIHZhbiBLZW1lbmFkZQ0KKiBIdW50ZXIgUmljaGFyZHMN
+CiogS2F0YXJ6eW5hIEtyw7NsDQoqIEthdHJpbiBMZWlud2ViZXINCiogS2VyaSBWb2xhbnMNCiog
+TGV3aXMgQmVsY2hlcg0KKiBMdWthcyBHZWlnZXINCiogTWFydGluIE1pY2hsbWF5cg0KKiBNYXR0
+d21hc3RlcjU4DQoqIE1heGltaWxpYW4gQ29zbW8gU2l0dGVyDQoqIE5pa29sYXkgS29uZHJhdHll
+dg0KKiBQYXZlbCBLYXJhdGVldg0KKiBQYXdlxYIgV2lsY3p5xYRza2kNCiogUHJhc2hhbnQgQW5h
+bmQNCiogUmFtIFJhY2h1bQ0KKiBSYW4gQmVuaXRhDQoqIFJvbm55IFBmYW5uc2NobWlkdA0KKiBS
+dWFyaWRoIFdpbGxpYW1zb24NCiogU2ltb24gSw0KKiBUaW0gSG9mZm1hbm4NCiogVG9yIENvbHZp
+bg0KKiBWbGFkLVJhZHoNCiogWGluYmluIEh1YW5nDQoqIFphYyBIYXRmaWVsZC1Eb2Rkcw0KKiBl
+YXJvbmVzdHkNCiogZ2F1cmF2IGRoYW1lZWphDQoqIGdkaGFtZWVqYQ0KKiBpYnJpcXVlbQ0KKiBt
+Y3NpdHRlcg0KKiBwaW90cmhtDQoqIHNtYXJpZQ0KKiBzeW1vbmsNCiogeHVpcXp5DQoNCg0KSGFw
+cHkgdGVzdGluZywNClRoZSBweXRlc3QgRGV2ZWxvcG1lbnQgVGVhbQ0K
+
+</pre>
+
+             </body>
+            </html>
+            

@@ -71,7 +71,7 @@ class HTMLRenderer(Handler):
     def end_title(self):
         print('</h1>')
 
-    def sub_empasis(self, match):
+    def sub_emphasis(self, match):
         return '<em>{}</em>'.format(match.group(1))
 
     def sub_url(self, match):
