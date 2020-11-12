@@ -19,9 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="7/12">
-      <changelist_data name="Ivon" email="yuweiwei.dev@gmail.com" />
-      <change afterPath="$PROJECT_DIR$/Django实战/README.md" afterDir="false" />
+    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="11/12">
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_learning_notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learning_notes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -47,16 +67,54 @@
     </option>
   </component>
   <component name="ProjectId" id="1daTsdd4tAnzuKcvNy1uipWpnal" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CookBook_and_code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django实战/hw_mall/myweb" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\myweb" />
+      <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\myadmin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learning_notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django实战/hw_mall" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django实战/hw_mall/manage.py" />
+      <option name="PARAMETERS" value="runserver 127.0.0.1:8888" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -72,6 +130,14 @@
       <workItem from="1592662414438" duration="642000" />
       <workItem from="1594271355046" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="11/12">
+      <created>1605188996782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605188996782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,25 +153,71 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="000" />
-    <MESSAGE value="11/12" />
     <MESSAGE value="7/12" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/12" />
+    <MESSAGE value="11/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/12" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="960" y="352" key="FileChooserDialogImpl" timestamp="1605188435321">
+    <state x="663" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605191925556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="352" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605188435321" />
-    <state x="681" y="241" key="SettingsEditor" timestamp="1605188481279">
+    <state x="663" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605191925556" />
+    <state x="781" y="316" key="FileChooserDialogImpl" timestamp="1605191658266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="241" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605188481279" />
+    <state x="781" y="316" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605191658266" />
+    <state width="1266" height="267" key="GridCell.Tab.0.bottom" timestamp="1605191928661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
+    <state width="1266" height="267" key="GridCell.Tab.0.center" timestamp="1605191928661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
+    <state width="1266" height="267" key="GridCell.Tab.0.left" timestamp="1605191928661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
+    <state width="1266" height="267" key="GridCell.Tab.0.right" timestamp="1605191928661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
+    <state width="1266" height="267" key="GridCell.Tab.1.bottom" timestamp="1605191928572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
+    <state width="1266" height="267" key="GridCell.Tab.1.center" timestamp="1605191928572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
+    <state width="1266" height="267" key="GridCell.Tab.1.left" timestamp="1605191928572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
+    <state width="1266" height="267" key="GridCell.Tab.1.right" timestamp="1605191928572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
+    <state x="681" y="241" key="SettingsEditor" timestamp="1605191683441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="241" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605191683441" />
+    <state x="730" y="289" key="Vcs.Push.Dialog.v2" timestamp="1605189018340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605189018340" />
     <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605185366418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605185366418" />
+    <state x="875" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1605189973390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="875" y="256" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605189973390" />
   </component>
 </project>
