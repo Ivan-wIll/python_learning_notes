@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/test_output1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础教程笔记/第20章 项目1：自动添加标签/test_output1.html" afterDir="false" />
+    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="7/12">
+      <changelist_data name="Ivon" email="yuweiwei.dev@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/Django实战/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_learning_notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learning_notes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +32,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ivon &lt;yuweiwei.dev@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/loserivan/python_learning_notes" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1daTsdd4tAnzuKcvNy1uipWpnal" />
   <component name="ProjectViewState">
@@ -22,8 +55,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CookBook_and_code" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,18 +77,35 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="000" />
-    <option name="LAST_COMMIT_MESSAGE" value="000" />
+    <MESSAGE value="11/12" />
+    <MESSAGE value="7/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/12" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="16" key="CommitChangelistDialog2" timestamp="1592662676468">
+    <state x="960" y="352" key="FileChooserDialogImpl" timestamp="1605188435321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592662676468" />
-    <state x="548" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592662486297">
+    <state x="960" y="352" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605188435321" />
+    <state x="681" y="241" key="SettingsEditor" timestamp="1605188481279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592662486297" />
+    <state x="681" y="241" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605188481279" />
+    <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605185366418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605185366418" />
   </component>
 </project>
