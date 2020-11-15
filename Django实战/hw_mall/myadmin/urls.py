@@ -18,6 +18,7 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name="myadmin_index"),
+    url(r'index.html^$', views.index, name="myadmin_index"),
 
     # 分页浏览信息
     url(r'^users(?P<pIndex>[0-9]*)$', views.users, name="users"),
