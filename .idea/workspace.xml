@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,37 +22,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="11/12">
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="创建空的系统,构建基本的代码结构">
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/templates/myadmin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django实战/hw_mall/templates/myadmin/users/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_learning_notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learning_notes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/hw_mall/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/myadmin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myweb/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/hw_mall/myweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/myweb/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -76,19 +76,42 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django实战/hw_mall/myweb" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django实战/hw_mall/templates/myadmin/users" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\templates\myadmin\users" />
       <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\myweb" />
       <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\myadmin" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learning_notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Anaconda3/envs/django/Lib/site-packages/django/core/handlers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/Anaconda3/envs/django/Lib/site-packages/django/core/handlers/exception.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learning_notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,9 +133,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learning_notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django实战/hw_mall/myadmin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django实战/hw_mall/myadmin/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.exception" />
+        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605188996782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建空的系统,构建基本的代码结构">
+      <created>1605192711178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605192711178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,64 +213,84 @@
     <MESSAGE value="000" />
     <MESSAGE value="7/12" />
     <MESSAGE value="11/12" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/12" />
+    <MESSAGE value="创建空的系统,构建基本的代码结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建空的系统,构建基本的代码结构" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="915" y="96" key="#Plugins" timestamp="1605246976632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="915" y="96" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1605246976632" />
+    <state x="1076" y="325" key="#Vim_Emulation" timestamp="1605248211263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1076" y="325" key="#Vim_Emulation/0.0.1920.1040@0.0.1920.1040" timestamp="1605248211263" />
     <state x="663" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605191925556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605191925556" />
-    <state x="781" y="316" key="FileChooserDialogImpl" timestamp="1605191658266">
+    <state x="1128" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1605246588831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="781" y="316" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605191658266" />
-    <state width="1266" height="267" key="GridCell.Tab.0.bottom" timestamp="1605191928661">
+    <state x="1128" y="171" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605246588831" />
+    <state x="781" y="316" key="FileChooserDialogImpl" timestamp="1605260776683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
-    <state width="1266" height="267" key="GridCell.Tab.0.center" timestamp="1605191928661">
+    <state x="781" y="316" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605260776683" />
+    <state width="1321" height="269" key="GridCell.Tab.0.bottom" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
-    <state width="1266" height="267" key="GridCell.Tab.0.left" timestamp="1605191928661">
+    <state width="1321" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.0.center" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
-    <state width="1266" height="267" key="GridCell.Tab.0.right" timestamp="1605191928661">
+    <state width="1321" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.0.left" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928661" />
-    <state width="1266" height="267" key="GridCell.Tab.1.bottom" timestamp="1605191928572">
+    <state width="1321" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.0.right" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
-    <state width="1266" height="267" key="GridCell.Tab.1.center" timestamp="1605191928572">
+    <state width="1321" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.1.bottom" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
-    <state width="1266" height="267" key="GridCell.Tab.1.left" timestamp="1605191928572">
+    <state width="1321" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.1.center" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
-    <state width="1266" height="267" key="GridCell.Tab.1.right" timestamp="1605191928572">
+    <state width="1321" height="269" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.1.left" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1266" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605191928572" />
-    <state x="681" y="241" key="SettingsEditor" timestamp="1605191683441">
+    <state width="1321" height="269" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1321" height="269" key="GridCell.Tab.1.right" timestamp="1605342549358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="241" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605191683441" />
-    <state x="730" y="289" key="Vcs.Push.Dialog.v2" timestamp="1605189018340">
+    <state width="1321" height="269" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state x="675" y="209" key="SettingsEditor" timestamp="1605248116609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605189018340" />
+    <state x="675" y="209" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605248116609" />
+    <state x="730" y="289" key="Vcs.Push.Dialog.v2" timestamp="1605192728376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605192728376" />
     <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605185366418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605185366418" />
-    <state x="875" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1605189973390">
+    <state x="875" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1605246877880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="875" y="256" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605189973390" />
+    <state x="875" y="256" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605246877880" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="request.META" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
