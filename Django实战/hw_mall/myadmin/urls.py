@@ -14,11 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from . import views
+from . import views, viewsgoods
 
 urlpatterns = [
     url(r'^$', views.index, name="myadmin_index"),
-    url(r'index.html^$', views.index, name="myadmin_index"),
+    url(r'^index.html$', views.index, name="myadmin_index"),
 
     # 分页浏览信息
     url(r'^users(?P<pIndex>[0-9]*)$', views.users, name="users"),
@@ -41,7 +41,7 @@ urlpatterns = [
     # 后台管理员登录验证码
     url(r'^verify$', views.verify, name="myadmin_verify"),
 
-    # 后台商品类别信息管理
+    # 后台商品类别管理
     url(r'^type$',viewsgoods.typeindex,name="myadmin_typeindex"),
     url(r'^typeadd/(?P<tid>[0-9]+)$',viewsgoods.typeadd,name="myadmin_typeadd"),
     url(r'^typeinsert$',viewsgoods.typeinsert,name="myadmin_typeinsert"),
