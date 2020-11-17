@@ -1,0 +1,6 @@
+python==3.6
+django==1.11.18
+olefile==0.44
+oillow==4.2.1
+pymysql==0.10.1
+pytz==2020.4
