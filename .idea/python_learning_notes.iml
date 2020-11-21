@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Django实战" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Django实战/hw_mall" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (django)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

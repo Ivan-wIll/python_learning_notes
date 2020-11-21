@@ -23,8 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32d6678d-fd29-4b04-b882-9ff1c08ca06b" name="Default Changelist" comment="创建空的系统,构建基本的代码结构">
+      <change afterPath="$PROJECT_DIR$/Demo/Python基础实例.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/print输出带颜色.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/socket模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/tmp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/udp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/udp_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/基于tcp协议的文件传输/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/socket/基于tcp协议的文件传输/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/单例模式__new__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/员工信息表.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/文件处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/计算文件夹总大小.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/队列和栈.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_learning_notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learning_notes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django实战/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django实战/hw_mall/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础实例.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python教程-廖雪峰老师/06.面向对象编程/1.类和实例、封装、访问限制.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python教程-廖雪峰老师/06.面向对象编程/1.类和实例、封装、访问限制.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/print输出带颜色.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +102,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\python_learning_notes\Demo\socket\基于tcp协议的文件传输" />
       <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\templates\myadmin\users" />
       <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\myweb" />
       <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall\myadmin" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\python_learning_notes\Django实战\hw_mall" />
+      <recent name="C:\Users\Ivan\python_learning_notes\Demo\socket" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration name="exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.client (1)">
+    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learning_notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/Anaconda3/envs/django/Lib/site-packages/django/core/handlers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/socket/基于tcp协议的文件传输" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:/Anaconda3/envs/django/Lib/site-packages/django/core/handlers/exception.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/socket/基于tcp协议的文件传输/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learning_notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +142,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django实战/hw_mall" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django实战/hw_mall/manage.py" />
-      <option name="PARAMETERS" value="runserver 127.0.0.1:8888" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/socket/client.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -127,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learning_notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +163,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django实战/hw_mall/myadmin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/socket/基于tcp协议的文件传输" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django实战/hw_mall/myadmin/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/socket/基于tcp协议的文件传输/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="udp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learning_notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/socket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/socket/udp_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="udp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learning_notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/socket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/socket/udp_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,9 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.exception" />
-        <item itemvalue="Python.views" />
+        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.server (1)" />
+        <item itemvalue="Python.udp_client" />
+        <item itemvalue="Python.udp_server" />
+        <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605191925556" />
+    <state x="1112" y="292" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605887434295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1112" y="292" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605887434295" />
     <state x="1128" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1605246588831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,38 +307,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="781" y="316" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605596379081" />
-    <state width="1321" height="269" key="GridCell.Tab.0.bottom" timestamp="1605342549358">
+    <state width="1163" height="100" key="GridCell.Tab.0.bottom" timestamp="1605887445578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.0.center" timestamp="1605342549358">
+    <state width="1163" height="100" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605887445578" />
+    <state width="1163" height="100" key="GridCell.Tab.0.center" timestamp="1605887445578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.0.left" timestamp="1605342549358">
+    <state width="1163" height="100" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605887445578" />
+    <state width="1163" height="100" key="GridCell.Tab.0.left" timestamp="1605887445578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.0.right" timestamp="1605342549358">
+    <state width="1163" height="100" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605887445578" />
+    <state width="1163" height="100" key="GridCell.Tab.0.right" timestamp="1605887445578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.1.bottom" timestamp="1605342549358">
+    <state width="1163" height="100" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605887445578" />
+    <state width="1163" height="290" key="GridCell.Tab.1.bottom" timestamp="1605865011069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.1.center" timestamp="1605342549358">
+    <state width="1163" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605865011069" />
+    <state width="1163" height="290" key="GridCell.Tab.1.center" timestamp="1605865011069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.1.left" timestamp="1605342549358">
+    <state width="1163" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605865011069" />
+    <state width="1163" height="290" key="GridCell.Tab.1.left" timestamp="1605865011069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
-    <state width="1321" height="269" key="GridCell.Tab.1.right" timestamp="1605342549358">
+    <state width="1163" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605865011069" />
+    <state width="1163" height="290" key="GridCell.Tab.1.right" timestamp="1605865011069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1321" height="269" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605342549358" />
+    <state width="1163" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605865011069" />
     <state x="675" y="209" key="SettingsEditor" timestamp="1605248116609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,6 +351,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="983" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605185366418" />
+    <state x="965" y="99" width="596" height="891" key="find.popup" timestamp="1605881591330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="965" y="99" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605881591330" />
     <state x="875" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1605246877880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
